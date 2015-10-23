@@ -1,0 +1,52 @@
+{
+  "name": "presentation-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test",
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbertFM/gulp-presentation.git"
+  },
+  "author": "albertofdzm@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlbertFM/gulp-presentation/issues"
+  },
+  "homepage": "https://github.com/AlbertFM/gulp-presentation#readme",
+  "engines": {
+    "node": "~0.10.0"
+  },
+  "dependencies": {
+    "underscore": "~1.5.1",
+    "express": "~2.5.9",
+    "mustache": "~0.7.2",
+    "socket.io": "~0.9.16"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-autoprefixer": "~1.0.1",
+    "grunt-contrib-connect": "~0.8.0",
+    "grunt-contrib-cssmin": "~0.12.2",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-qunit": "~0.5.2",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-sass": "^1.0.0",
+    "grunt-zip": "~0.7.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-csslint": "^0.2.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.4.2",
+    "node-sass": "^3.3.3"
+  }
+}
