@@ -16,21 +16,21 @@
 
     <link href='https://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="./css/reveal.css">
+    <link rel="stylesheet" href="./css/theme/black.css" id="theme">
 
     <!-- some icons -->
     <link href="//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css" rel="stylesheet">
 
     <!-- Code syntax highlighting -->
-    <link rel="stylesheet" href="lib/css/monokai.css">
+    <link rel="stylesheet" href="./lib/css/monokai.css">
 
     <!-- Printing and PDF exports -->
     <script>
       var link = document.createElement( 'link' );
       link.rel = 'stylesheet';
       link.type = 'text/css';
-      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? './css/print/pdf.css' : './css/print/paper.css';
       document.getElementsByTagName( 'head' )[0].appendChild( link );
     </script>
 
@@ -42,7 +42,7 @@
     </style>
 
     <!--[if lt IE 9]>
-    <script src="lib/js/html5shiv.js"></script>
+    <script src="./lib/js/html5shiv.js"></script>
     <![endif]-->
   </head>
 
@@ -55,7 +55,7 @@
         <section>
           <h1 style="font-family: 'Damion'; text-transform: none;">Gulp</h1>
           <h2>The Streaming Build System</h2>
-          <img class="stretch" src="/img/gulp-logo.png">
+          <img class="stretch" src="./img/gulp-logo.png">
 
           <aside class="notes">
             <p>Introduction</p>
@@ -67,10 +67,10 @@
         <section>
           <h2>Some history</h2>
 
-          <img class="fragment" src="/img/ant-logo.png" height="100px">
-          <img class="fragment" src="/img/node-logo.png" height="100px">
-          <img class="fragment" src="/img/grunt-logo.svg" height="100px">
-          <img class="fragment" src="/img/gulp-logo.png" height="100px">
+          <img class="fragment" src="./img/ant-logo.png" height="100px">
+          <img class="fragment" src="./img/node-logo.png" height="100px">
+          <img class="fragment" src="./img/grunt-logo.svg" height="100px">
+          <img class="fragment" src="./img/gulp-logo.png" height="100px">
 
           <aside class="notes">
             <p>Build Automation: Ant (Java) 2000</p>
@@ -85,8 +85,8 @@
             <h1><span style="color: #E48632;font-size: .8em;margin-left: -40px;">Grunt</span> <span style="color: #ddd;font-family: monospace; font-size: .6em;vertical-align: 10px;">VS</span> <span style="font-family: 'Damion'; text-transform: none;">Gulp</span></h1>
 
             <p>
-              <img src="/img/grunt-logo.svg" height="200px" style="margin-right: 150px;">
-              <img src="/img/gulp-logo.png" height="200px" style="margin-right: 60px;">
+              <img src="./img/grunt-logo.svg" height="200px" style="margin-right: 150px;">
+              <img src="./img/gulp-logo.png" height="200px" style="margin-right: 60px;">
             </p>
 
             <aside class="notes">
@@ -118,7 +118,7 @@
           <section>
             <h2>S0m3 numb3r5</h2>
 
-            <img src="/img/some-numbers-01.png" class="fragment">
+            <img src="./img/some-numbers-01.png" class="fragment">
 
             <aside class="notes">
               <p>havong said that which one would you think last less in complete a js and css build task?</p>
@@ -127,7 +127,7 @@
             </aside>
           </section>
           <section>
-            <img src="/img/some-numbers-02.png" class="stretch">
+            <img src="./img/some-numbers-02.png" class="stretch">
 
             <aside class="notes">
               <p>Currently grunt is being used more than grulp among the web projects</p>
@@ -162,7 +162,7 @@ gulp.task('default', function () {
           <section>
             <h2>The pipe theory</h2>
 
-            <img class="stretch" src="/img/pipe-theory.png">
+            <img class="stretch" src="./img/pipe-theory.png">
 
             <aside class="notes">
               <p>All you knows tht I like to change the way that you think</p>
@@ -170,7 +170,7 @@ gulp.task('default', function () {
             </aside>
           </section>
           <section>
-            <img src="/img/pipe-theory-2.png">
+            <img src="./img/pipe-theory-2.png">
           </section>
           <section>
             <h2>A simple style task</h2>
@@ -253,9 +253,9 @@ gulp.task('styles', function() {</code></pre>
           <h2>Easter Egg!</h2>
           <h4>The name</h4>
 
-          <img class="fragment" src="/img/7eleven-logo.png" height="250px">
-          <img class="fragment" src="/img/big-gulp.jpg" height="250px">
-          <img class="fragment" src="/img/big-gulp-machine.jpg" height="250px">
+          <img class="fragment" src="./img/7eleven-logo.png" height="250px">
+          <img class="fragment" src="./img/big-gulp.jpg" height="250px">
+          <img class="fragment" src="./img/big-gulp-machine.jpg" height="250px">
 
           <aside class="notes">
             <p>Some of you know from where do the name come from?</p>
@@ -268,14 +268,14 @@ gulp.task('styles', function() {</code></pre>
           <h4>Some trademarks that use gulp</h4>
           <!-- Who uses gulp https://github.com/gulpjs/gulp/issues/540 -->
           <p>
-            <img src="/img/netflix-logo.png" height="100px">
-            <img src="/img/nhl-logo.png" height="100px">
-            <img src="/img/ionic-logo.png" height="100px">
-            <img src="/img/dell-logo.png" height="100px">
-            <img src="/img/tumblr-logo.png" height="100px">
-            <img src="/img/godaddy-logo.jpg" height="100px">
-            <img src="/img/soundcloud-logo.png" height="100px">
-            <img src="/img/developers-logo.svg" height="100px">
+            <img src="./img/netflix-logo.png" height="100px">
+            <img src="./img/nhl-logo.png" height="100px">
+            <img src="./img/ionic-logo.png" height="100px">
+            <img src="./img/dell-logo.png" height="100px">
+            <img src="./img/tumblr-logo.png" height="100px">
+            <img src="./img/godaddy-logo.jpg" height="100px">
+            <img src="./img/soundcloud-logo.png" height="100px">
+            <img src="./img/developers-logo.svg" height="100px">
           </p>
 
           <aside class="notes">
@@ -308,8 +308,8 @@ gulp.task('styles', function() {</code></pre>
 
     </div>
 
-    <script src="lib/js/head.min.js"></script>
-    <script src="js/reveal.js"></script>
+    <script src="./lib/js/head.min.js"></script>
+    <script src="./js/reveal.js"></script>
 
     <script>
 
